@@ -1,4 +1,9 @@
 const http = require('http');
+const mongoose = require('mongoose');
+
+mongoose.connect('mongodb+srv://cygan:Cygan20762%40@cluster0.huylzre.mongodb.net/myapp?appName=Cluster0')
+  .then(() => console.log('Connected to MongoDB!'))
+  .catch(err => console.log('MongoDB error:', err));
 
 const server = http.createServer((req, res) => {
     res.writeHead(200, {'Content-Type': 'text/html'});
