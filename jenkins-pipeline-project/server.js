@@ -7,6 +7,9 @@ app.get('/', (req, res) => {
         <html>
             <body>
                 <h1>MILESTONE 2</h1>
+                <h1>MILESTONE 3</h1>
+                <h1>MILESTONE 4</h1>
+
             </body>
         </html>
     `);
